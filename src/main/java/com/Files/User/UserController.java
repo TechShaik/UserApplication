@@ -19,8 +19,7 @@ import com.Files.User.DTOs.UserRequsetDTO;
 import com.Files.User.DTOs.UserResponseDTO;
 
 @RestController
-@RequestMapping("/user")
-public class UserController {
+ public class UserController {
     
 	@Autowired
 	private UserService userService; 
