@@ -26,7 +26,7 @@ import com.Files.User.DTOs.UserResponseDTO;
 	
 	@GetMapping
 	public String UW() {
-		return "Welcome User Please Register First";
+		return "Welcome User Register First";
 	}
 	@PostMapping("/reg")
 	public UserResponseDTO regUSer(@RequestBody UserRequsetDTO userRequsetDTO) {
