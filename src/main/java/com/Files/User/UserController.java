@@ -28,8 +28,8 @@ import com.Files.User.DTOs.UserResponseDTO;
 	public String UW() {
 		return "Hello let's get register";
 	}
-	 @GetMapping
-	public String UW1("/hey") {
+	 @GetMapping("/hey")
+	public String UW1() {
 		return "Hello let's get register";
 	}
 	@PostMapping("/reg")
