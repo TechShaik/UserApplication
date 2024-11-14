@@ -28,6 +28,10 @@ import com.Files.User.DTOs.UserResponseDTO;
 	public String UW() {
 		return "Hello let's get register";
 	}
+	 @GetMapping
+	public String UW1("/hey") {
+		return "Hello let's get register";
+	}
 	@PostMapping("/reg")
 	public UserResponseDTO regUSer(@RequestBody UserRequsetDTO userRequsetDTO) {
 	   return userService.add(userRequsetDTO);	
