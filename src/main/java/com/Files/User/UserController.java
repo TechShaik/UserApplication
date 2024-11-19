@@ -26,7 +26,7 @@ import com.Files.User.DTOs.UserResponseDTO;
 	
 	@GetMapping
 	public String UW() {
-		return "Hello welcome to user application";
+		return "Register for user application";
 	}
 	
 	@PostMapping("/reg")
